@@ -1,0 +1,58 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Global Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #003366; /* Navy blue */
+}
+
+.navbar-brand {
+  font-weight: 700;
+  size: 40px;
+}
+
+.logo {
+    max-height: 70px; /* Adjust the value as needed */
+    width: auto;
+    
+  }
+
+
+.nav-link {
+  color: #fff;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #f5f5f5;
+}
+
+/* Features Section */
+.features .card {
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.features .card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+  background-color: #003366;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #ffd700; /* Golden yellow */
+}
